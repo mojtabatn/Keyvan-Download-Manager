@@ -10,7 +10,7 @@
 
 Multi-connection downloads · Video grabber for YouTube, X and 1000+ sites · Queue and scheduler · 10 themes
 
-> ⚠️ **Using KDM 0.2.1 or older? Install 0.2.2 by hand, once.**
+> ⚠️ **Using KDM 0.2.1 or older? Install the latest version by hand, once.**
 > The *Update Available!* button of those versions can't install updates (it did nothing, or failed with "GitHub responded 403").
 > Download **KDM-Setup.exe** below and run it: your settings and downloads are kept. After that, updates install themselves again.
 
