@@ -29,7 +29,7 @@ const $ = (id) => document.getElementById(id);
   if (host) {
     const { hiddenSites = [] } = await chrome.storage.local.get({ hiddenSites: [] });
     $('siteRow').hidden = false;
-    $('siteName').textContent = host;
+    $('siteRow').title = host; // shown only as a tooltip
     $('siteBtn').checked = !hiddenSites.includes(host);
     $('siteBtn').addEventListener('change', async (e) => {
       const { hiddenSites: now = [] } = await chrome.storage.local.get({ hiddenSites: [] });
