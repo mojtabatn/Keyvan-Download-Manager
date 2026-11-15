@@ -175,7 +175,8 @@ Use the download buttons at the top of this page, or pick a file on the [Release
 
 1. Open `chrome://extensions` (or `edge://extensions`) and turn on **Developer mode**.
 2. Click **Load unpacked** and select the extension folder. To find it, open **Settings → Browser integration → Open
-   extension folder** in KDM.
+   extension folder** in KDM. That folder is a permanent copy kept in KDM's data folder, so the browser keeps the
+   extension after a restart, even if you use the portable version; KDM refreshes its files after each update.
 
 ---
 
